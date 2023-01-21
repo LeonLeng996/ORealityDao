@@ -1,11 +1,8 @@
 {
-  "name": "rejected-f00kers-mint-next",
+  "name": "OReality-mint-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "hdev": "nodemon",
-    "hbuild": "next build && tsc --project tsconfig.server.json",
-    "hstart": "cross-env NODE_ENV=production node dist/server.js",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
